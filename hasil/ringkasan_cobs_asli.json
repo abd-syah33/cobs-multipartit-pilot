@@ -1,0 +1,31 @@
+{
+ "theta_sim": 0.3,
+ "theta_overlap": 0.1,
+ "sim_metric": "aa",
+ "base_crisp": "greedy_modularity",
+ "crisp_k": 131,
+ "crisp_modularity": 0.5792959881202664,
+ "boundary_nodes": 1770,
+ "final_k": 131,
+ "overlap_nodes": 1,
+ "membership_count_dist": {
+  "1": 8108,
+  "2": 1
+ },
+ "weight_attr_for_crisp": null,
+ "modularity_overlap": 0.3000738329475413,
+ "internal_edge_density": 0.4422904502715136,
+ "conductance": 0.1893650075707832,
+ "normalized_cut": 0.19107443656263695,
+ "avg_transitivity": 0.0,
+ "shen_modularity": 0.5795202575390298,
+ "n_communities": 131,
+ "max_community_size": 2859,
+ "coverage_ratio": 1.0,
+ "uncovered_node_ratio": 0.0,
+ "overlap_node_ratio": 0.00012331976815883587,
+ "avg_memberships_per_covered_node": 1.000123319768159,
+ "overlap_intensity": 2.0,
+ "detik_langkah1": 62.5,
+ "detik_total": 62.6
+}

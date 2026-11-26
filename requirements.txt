@@ -3,3 +3,6 @@ pandas
 numpy
 scipy
 cdlib
+scikit-learn
+rdata    # cuma utk benchmark/siapkan_data.py
+xlrd     # cuma utk benchmark/siapkan_data.py

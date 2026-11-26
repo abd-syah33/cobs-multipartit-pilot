@@ -1,0 +1,740 @@
+id,nama
+CORUM_0004,Multisubunit ACTR coactivator complex
+CORUM_0015,NCOR complex
+CORUM_0032,PA700 complex
+CORUM_0041,Mi-2/NuRD-MTA2 complex
+CORUM_0049,DNMT3B complex
+CORUM_0054,SIN3 complex
+CORUM_0055,HDAC4-ERK1 complex
+CORUM_0057,HDAC4-ERK2 complex
+CORUM_0058,SMRT complex
+CORUM_0060,Interferon-stimulated gene factor 3 transcription complex ISGF3
+CORUM_0061,Mi2/NuRD complex
+CORUM_0062,MeCP1 complex
+CORUM_0066,TRAP complex
+CORUM_0098,p300-MDM2-p53 protein complex
+CORUM_0107,TFIIH transcription factor complex
+CORUM_0115,"Polycomb repressive complex 1 (PRC1, hPRC-H)"
+CORUM_0116,"Polycomb repressive complex 1 (PRC1, hPRC-H)"
+CORUM_0120,Lymphotoxin beta receptor complex
+CORUM_0143,APP-FE65-LRP complex
+CORUM_0159,Condensin I-PARP-1-XRCC1 complex
+CORUM_0178,"Respiratory chain complex I (holoenzyme), mitochondrial"
+CORUM_0181,26S proteasome
+CORUM_0191,20S proteasome
+CORUM_0192,PA28-20S proteasome
+CORUM_0193,PA700-20S-PA28 complex
+CORUM_0194,PA28gamma-20S proteasome
+CORUM_0206,DNA ligase IV-XRCC4 complex
+CORUM_0212,DNA ligase III-XRCC1 complex
+CORUM_0228,SMCC complex
+CORUM_0229,NAT complex
+CORUM_0230,Mediator complex
+CORUM_0232,ARC complex
+CORUM_0243,RalBP1-CDC2-CCNB1 complex
+CORUM_0280,HMGB1-HMGB2-HSC70-ERP60-GAPDH complex
+CORUM_0282,SNF2h-cohesin-NuRD complex
+CORUM_0283,Sin3 complex
+CORUM_0287,ARC-L complex
+CORUM_0288,ARC complex
+CORUM_0290,MSH2-MLH1-PMS2-PCNA DNA-repair initiation complex
+CORUM_0291,MSH2-MLH1-PMS2 DNA-repair initiation complex
+CORUM_0292,MutL-alpha complex
+CORUM_0298,VEGF transcriptional complex
+CORUM_0301,SMCC complex
+CORUM_0310,Cell cycle kinase complex CDC2
+CORUM_0311,Cell cycle kinase complex CDK2
+CORUM_0312,Cell cycle kinase complex CDK4
+CORUM_0313,Cell cycle kinase complex CDK5
+CORUM_0336,DNA ligase IV-XRCC4-AHNK complex
+CORUM_0344,DNA ligase IV-XRCC4 complex (LX complex)
+CORUM_0345,DNA ligase IV-XRCC4 complex (LX complex)
+CORUM_0350,DNA ligase IV-XRCC4-PNK complex
+CORUM_0351,Spliceosome
+CORUM_0352,DNA ligase IV-XRCC4 complex
+CORUM_0354,DNA ligase IV-XRCC4 complex
+CORUM_0359,DNA ligase IV-XRCC4-XLF complex
+CORUM_0362,DNA ligase III-XRCC1-PNK-DNA-pol III multiprotein complex
+CORUM_0363,DNA ligase III-XRCC1 complex
+CORUM_0365,DNA ligase III-XRCC1 complex
+CORUM_0369,MSH2-MSH6-PMS2-MLH1 complex
+CORUM_0376,PCNA-MutS-alpha-MutL-alpha-DNA complex
+CORUM_0379,MutL-alpha complex
+CORUM_0387,MCM complex
+CORUM_0393,"Succinyl-CoA synthetase, GDP-forming"
+CORUM_0394,"Succinyl-CoA synthetase, ADP-forming"
+CORUM_0404,"Isocitrate dehydrogenase, cytoplasmic"
+CORUM_0415,EXO1-MLH1-PMS2 complex
+CORUM_0423,EXO1-MLH1-PMS2 complex
+CORUM_0431,MSH2-MSH6-PMS2-MLH1 complex
+CORUM_0432,N-NOS-CHIP-HSP70-1 complex
+CORUM_0441,TFTC-type histone acetyl transferase complex
+CORUM_0471,PCAF complex
+CORUM_0472,Prolyl 4-hydroxylase (alpha(I)-type)
+CORUM_0474,Prolyl 4-hydroxylase (alpha(III)-type)
+CORUM_0477,PCAF complex
+CORUM_0486,WIP-WASp-actin-myosin-IIa complex
+CORUM_0518,AKAP250-PKA-PDE4D complex
+CORUM_0520,KCNQ1 macromolecular complex
+CORUM_0521,Polycystin-1-E-cadherin-beta-catenin complex
+CORUM_0522,Polycystin-1-E-cadherin-beta-catenin-Flotillin-2 complex
+CORUM_0535,TRAP complex
+CORUM_0541,IGF1-IGFBP3-ALS complex
+CORUM_0547,SMCC complex
+CORUM_0548,DRIP complex
+CORUM_0549,DRIP complex
+CORUM_0550,NOS3-CAV1-NOSTRIN complex
+CORUM_0552,IFNB1-IFNAR1-IFNAR2- complex
+CORUM_0553,RHOA-IP3R-TRPC1 complex
+CORUM_0559,Decapping complex
+CORUM_0563,"F1F0-ATP synthase (EC 3.6.3.14), mitochondrial"
+CORUM_0575,ABIN2-NFKB1-MAP3K8 complex
+CORUM_0585,Mi2/NuRD-BCL6-MTA3 complex
+CORUM_0587,NuRD.1 complex
+CORUM_0591,SAP complex (Sin3-associated protein complex)
+CORUM_0592,SAP complex (Sin3-associated protein complex)
+CORUM_0596,SIN3-HDAC-SAP30-ARID4 complex
+CORUM_0614,NRD complex (Nucleosome remodeling and deacetylation complex)
+CORUM_0617,CASK-LIN7C-APBA1 complex
+CORUM_0620,CoREST-HDAC complex
+CORUM_0621,AKAP250-PKA-PDE4D complex
+CORUM_0626,LSD1 complex
+CORUM_0631,Tacc1-chTOG-AuroraA  complex
+CORUM_0632,Anti-HDAC2 complex
+CORUM_0633,anti-BHC110 complex
+CORUM_0634,XFIM complex
+CORUM_0636,BHC complex
+CORUM_0642,CtBP complex
+CORUM_0643,CtBP core complex
+CORUM_0646,HDAC1-associated protein complex
+CORUM_0648,HDAC1-associated core complex cI
+CORUM_0649,HDAC1-associated core complex cII
+CORUM_0650,HDAC2-asscociated core complex
+CORUM_0659,MeCP1 complex
+CORUM_0668,BKCA-beta2AR-AKAP79 signaling complex
+CORUM_0672,BKCA-beta2AR complex
+CORUM_0681,(C-CFTR)2-NHERF-ezrin complex
+CORUM_0682,C-CFTR-NHERF(PDZ1 domain)-ezrin complex
+CORUM_0683,C-CFTR-NHERF(PDZ2 domain)-ezrin complex
+CORUM_0685,MeCP1 complex
+CORUM_0687,CFTR-NHERF-beta(2)AR signaling complex
+CORUM_0691,SIN3-SAP25 complex
+CORUM_0695,SIN3-HDAC-SAP30-ARID4 complex
+CORUM_0696,BRMS1-SIN3-HDAC complex
+CORUM_0698,SIN3-HDAC-SAP30-ARID4 complex
+CORUM_0706,"SNARE complex (HGS, SNAP25, STX13)"
+CORUM_0707,"SNARE complex (VAMP2, SNAP25, STX13)"
+CORUM_0713,BRG1-SIN3A complex
+CORUM_0714,BRM-SIN3A complex
+CORUM_0720,PU.1-SIN3A-HDAC complex
+CORUM_0722,MRG15-PAM14-RB complex
+CORUM_0723,MAF1 complex
+CORUM_0725,P2X7 receptor signalling complex
+CORUM_0730,"SNARE complex (STX4, SNAP23, VAMP1)"
+CORUM_0731,"SNARE complex (STX4, SNAP23, VAMP2)"
+CORUM_0732,SIN3 complex
+CORUM_0733,"SNARE complex (STX4, VAMP1, VAMP7)"
+CORUM_0738,SIN3-ING1b complex I
+CORUM_0739,SIN3-ING1b complex II
+CORUM_0741,NCOR-HDAC3 complex
+CORUM_0743,SIN3-SAP25 complex
+CORUM_0745,NCOR-SIN3-RPD3 complex
+CORUM_0747,NCOR-SIN3-HDAC1 complex
+CORUM_0749,MeCP2-SIN3A-HDAC complex
+CORUM_0752,SMRT core complex
+CORUM_0753,UTM-SGCE-DAG1-CAV1-NOS3 complex
+CORUM_0757,Prune-GSK3beta complex
+CORUM_0758,Prune/Nm23-H1 complex
+CORUM_0771,NDPKA-AMPKalpha1 complex
+CORUM_0778,LARC complex (LCR-associated remodeling complex)
+CORUM_0786,MR-UBC9-SRC1 complex
+CORUM_0793,"SNARE complex (VAMP2, SNAP25, STX1a, CPLX1)"
+CORUM_0794,"SNARE complex (VAMP2, SNAP25, STX1a, CPLX2)"
+CORUM_0797,"SNARE complex (STX11, VAMP2, SNAP23)"
+CORUM_0803,BRG1-SIN3A-HDAC containing SWI/SNF remodeling complex I
+CORUM_0806,BRM-SIN3A-HDAC complex
+CORUM_0815,MRIP-MBS-RHOA complex
+CORUM_0816,MRIP-RHOA complex
+CORUM_0826,PAR-3-VE-cadherin-beta-catenin complex
+CORUM_0827,NgR-TROY-LINGO1 complex
+CORUM_0845,PCI-PSA-SCG2 complex
+CORUM_0860,DNMT1-G9a-PCNA complex
+CORUM_0862,DNMT1-G9a complex
+CORUM_0871,BRAF53-BRCA2 complex
+CORUM_0879,PRKAC-AKAP5-ADRB1 complex
+CORUM_0886,MTA1 complex
+CORUM_0888,MTA2 complex
+CORUM_0889,MTA1-HDAC core complex
+CORUM_0895,"hMediator complex (MED23, CDK8, CCNC, MED7)"
+CORUM_0896,"hMediator complex (MED23, CDK8, CCNC)"
+CORUM_0897,CDK8-CyclinC-Mediator complex
+CORUM_0898,Mediator complex 1
+CORUM_0903,RET-Rai complex
+CORUM_0906,ADAR1-CDK2 complex
+CORUM_0909,ARC92-Mediator complex
+CORUM_0924,Toposome
+CORUM_0929,CEN complex
+CORUM_0938,"FACT complex, UV-activated"
+CORUM_1003,RC complex (Replication competent complex)
+CORUM_1004,RC complex during S-phase of cell cycle
+CORUM_1005,RC complex during G2/M-phase of cell cycle
+CORUM_1007,CAK core complex (Cdk-activating kinase core complex)
+CORUM_1008,CAK complex (Cdk-activating kinase complex)
+CORUM_1009,TFIIH transcription factor complex
+CORUM_1010,CAK complex (Cdk-activating kinase complex)
+CORUM_1029,TFIIH transcription factor complex
+CORUM_1030,CAK-ERCC2 complex
+CORUM_1036,TFIIH transcription factor complex
+CORUM_1054,ESR1-RELA-BCL3-NCOA3 complex
+CORUM_1062,BAR-BCL2-CASP8 complex
+CORUM_1067,CD8A-LCK complex
+CORUM_1069,FIF-FGR2 complex
+CORUM_1079,P-TEFb.1 complex
+CORUM_1080,P-TEFb.2 complex
+CORUM_1082,P-TEFb.1 complex
+CORUM_1083,P-TEFb.4 complex
+CORUM_1085,DNA repair complex NEIL2-PNK-Pol(beta)-LigIII(alpha)-XRCC1
+CORUM_1086,DNA repair complex NEIL1-PNK-Pol(beta)-LigIII(alpha)-XRCC1
+CORUM_1088,PRNP-ApolopoproteinE3 complex
+CORUM_1093,"SNX complex (SNX1a, SNX2, SNX4, INSR)"
+CORUM_1095,"SNX complex (SNX1a, SNX2, SNX4, EGFR)"
+CORUM_1096,"SNX complex (SNX1,1a,2,4, PDGF receptor)"
+CORUM_1098,DNA synthesome complex (13 subunits)
+CORUM_1099,DNA synthesome complex (17 subunits)
+CORUM_1100,DNA polymerase alpha-primase complex
+CORUM_1106,TFIIIC containing-TOP1-SUB1 complex
+CORUM_1107,DNA synthesome core complex
+CORUM_1108,DNA synthesome complex (15 subunits)
+CORUM_1111,DNA synthesome complex (17 subunits)
+CORUM_1133,ATR-HDAC2 complex
+CORUM_1134,ATR-HDAC2-CHD4 complex
+CORUM_1137,"SNARE complex (VAMP2, SNAP25, STX1a, CPLX1, CPLX3)"
+CORUM_1138,"SNARE complex (VAMP2, SNAP25, STX1a, CPLX3, CPLX4)"
+CORUM_1139,"SNARE complex (VAMP2, SNAP25, STX1a, STX3, CPLX1, CPLX3, CPLX4)"
+CORUM_1148,snRNP-free U1A (SF-A) complex
+CORUM_1159,p33ING1b-HDAC1 complex
+CORUM_1183,CDC5L complex
+CORUM_1185,EGFR-containing signaling complex
+CORUM_1188,SMRT core complex
+CORUM_1189,DNA double-strand break end-joining complex
+CORUM_1191,RNA pol II containing coactivator complex Tat-SF
+CORUM_1193,Rap1 complex
+CORUM_1223,"H2AX complex, isolated from cells without IR exposure"
+CORUM_1226,H2AX complex I
+CORUM_1227,H2AX complex II
+CORUM_1230,WINAC complex
+CORUM_1231,FIB-associated protein complex
+CORUM_1233,CoREST-HDAC2 complex
+CORUM_1248,Apoptosome
+CORUM_1250,pRB-E2F-1 complex
+CORUM_1256,MLL-HCF complex
+CORUM_1257,ALL-1 supercomplex
+CORUM_1298,MKK4-ARRB2-JNK3 complex
+CORUM_1300,CRLR-RAMP1 complex
+CORUM_1301,CRLR-RAMP1 complex
+CORUM_1335,SNW1 complex
+CORUM_1338,"FOXO3-PCAF complex, oxidative stress stimulated"
+CORUM_1372,Rb-tal-1-E2A-Lmo2-Ldb1 complex
+CORUM_1379,GALNS-lysosomal hydrolase 1.27 MDa complex
+CORUM_1400,ASCOM complex
+CORUM_1413,NCOR1 complex
+CORUM_1439,PTGS2 homodimer complex
+CORUM_1452,MCM2-MCM6-MCM7 complex
+CORUM_1458,SNF2h-HDAC12 complex
+CORUM_1470,"pRb2/p130-multimolecular complex (DNMT1, E2F5, SuV39H1, HDAC1, RBL2)"
+CORUM_1471,"pRb2/p130-multimolecular complex (RB2, E2F5, HDAC1, SUV39H1, P300)"
+CORUM_1488,DNMT1-RB1-HDAC1-E2F1 complex
+CORUM_1490,DAXX-DNMT1-DMAP1 complex
+CORUM_1491,RGS6-DNMT1-DMAP1 complex
+CORUM_1492,BHC110 complex
+CORUM_1495,PID complex
+CORUM_1505,NCOR2 complex
+CORUM_1515,IL4-IL4R-IL2RG complex
+CORUM_1539,"G protein complex (GNG2, GNB2L1, RAF1)"
+CORUM_1543,PPP2CA-PPP2R1A complex
+CORUM_1544,PPP2CA-PPP2R1A-PPP2R3A complex
+CORUM_1612,"Heterotrimeric G protein complex (GNG2, GNB1, GNAS)"
+CORUM_1614,"G protein complex (MCF2, GNB1, GNG2)"
+CORUM_1615,"G protein complex (BTK, GNG1, GNG2)"
+CORUM_1617,"G protein complex (CACNA1A, GNB1, GNG2)"
+CORUM_1618,"G protein complex (PTHR1, GNB1, GNG2)"
+CORUM_1619,"G protein complex (HDAC5, GNB1, GNG2)"
+CORUM_1620,"G protein complex (HDAC4, GNB1, GNG2)"
+CORUM_1633,CyclinD1-CDK4-CDK6 complex
+CORUM_1642,p16-cyclin D2-CDK4 complex
+CORUM_1656,p27-cyclinE-CDK2 complex
+CORUM_1700,ABL2-HRAS-RIN1 complex
+CORUM_1707,IL2-IL2RA-IL2RB complex
+CORUM_1728,CTCF-nucleophosmin-PARP-HIS-KPNA-LMNA-TOP complex
+CORUM_1729,TLE1 corepressor complex (MASH1 promoter-corepressor complex)
+CORUM_1745,SMN complex
+CORUM_1746,SMN containing complex
+CORUM_1751,SMN complex
+CORUM_1760,TOP1-PSF-P54 complex
+CORUM_1779,TGF-beta-receptor-PAR6 complex
+CORUM_1787,Nogo-potassium channel complex
+CORUM_1793,LINGO-1-Nogo-66-p75 signaling complex
+CORUM_1795,SORT1-NGFR-NGFB complex
+CORUM_1810,ITGA4-PXN-GIT1 complex
+CORUM_1812,AXIN-MEKK4-CCD1 complex
+CORUM_1816,JUN-TCF4-CTNNB1 complex
+CORUM_1828,TGF-beta receptor I-Axin-SMAD3 complex
+CORUM_1874,"SNARE complex (SNAP25, VAMP3, VAMP2, NAPB, STX13)"
+CORUM_1893,mTOR-RICTOR complex
+CORUM_1895,RICTOR-mTOR complex
+CORUM_1897,RAPTOR-mTOR complex
+CORUM_1976,MTNR1A homodimer complex
+CORUM_1977,MTNR1B homodimer complex
+CORUM_1978,MTNR1A-MTNR1B complex
+CORUM_1982,CACY homodimer  complex
+CORUM_1993,SLC1A2 homotrimer complex
+CORUM_2003,COX1 homodimer complex
+CORUM_2007,PRNP homo-oligomer complex
+CORUM_2013,STAT5B homodimer complex
+CORUM_2018,IL12A-IL12B complex
+CORUM_2019,IL12A-IL12B-IL12RB1 complex
+CORUM_2020,IL12B-IL12RB1-IL12RB2 complex
+CORUM_2021,IL12A-IL12B-IL12RB2 complex
+CORUM_2028,JAK2-IL12RB2 complex
+CORUM_2055,CASP8-CHUK-IKBKB-MALT1-BCL10 complex
+CORUM_2056,BCL10-CHUK-BCL10-IKBKB complex
+CORUM_2073,TNFRSF11A-TRAF6-SRC complex
+CORUM_2084,NFKB1-NFKB2-REL-RELA-RELB complex
+CORUM_2086,NFKB1-NFKB2-RELA-RELB complex
+CORUM_2100,CHUK-IKBKB-MAP3K14 complex
+CORUM_2101,IKKA-IKKB complex
+CORUM_2104,IKKB-NIK complex
+CORUM_2105,"IkappaB kinase complex (IKBKB, CHUK, IKBKAP, NFKBIA, RELA, MAP3K14)"
+CORUM_2112,CDC37-HSP90AA1-HSP90AB1-MAP3K11 complex
+CORUM_2118,CHUK-ERC1-IKBKB-IKBKG
+CORUM_2121,CHUK-IKBKB-IKBKG complex
+CORUM_2124,IKK-alpha--ER-alpha-AIB1 complex
+CORUM_2153,ITGAM-ITGB2-CD11 complex
+CORUM_2156,YBX1-AKT1 complex
+CORUM_2159,AR-AKT-APPL complex
+CORUM_2160,AOF2-AR complex
+CORUM_2162,APPBP1-UBA3 complex
+CORUM_2183,Kaiso-NCOR complex
+CORUM_2196,LIG1-9-1-1 complex
+CORUM_2198,RAD9-RAD1-HUS1-POLB complex
+CORUM_2242,TGM2-HD-CALM1 complex
+CORUM_2243,TGM2-HD complex
+CORUM_2258,VILIP-1-AChR-alpha-4-AChR-beta-2 complex
+CORUM_2272,PICK1-GRIP1-GLUR2 complex
+CORUM_2318,ITGA6-ITGB4-Laminin10/12 complex
+CORUM_2319,ITGA6-ITGB4-Laminin10/12 complex
+CORUM_2320,ITGA6-ITGB4-CD151 complex
+CORUM_2321,ITGA6-ITGB4-FYN complex
+CORUM_2322,ITGA6-ITGB4-LAMA5 complex
+CORUM_2323,ITGA6-ITGB4 complex
+CORUM_2342,ITGAV-ITGB8-MMP14-TGFB1 complex
+CORUM_2343,ITGAV-ITGB5-PLAUR complex
+CORUM_2351,ITGB6-FYN-FN1 complex
+CORUM_2355,ITGAV-ITGB3-CD47-FCER2 complex
+CORUM_2356,ITGB3-ITGAV-CD47 complex
+CORUM_2358,ITGAV-ITGB3-SPP1 complex
+CORUM_2359,ITGAV-ITGB3-ADAM15 complex
+CORUM_2362,ITAGV-ITGB3-F11R complex
+CORUM_2363,ITGAV-ITGB3-PXN-PTK2b complex
+CORUM_2364,ITGAV-ITGB3-ADAM23 complex
+CORUM_2365,ITGAV-ITGB3-COL4A3 complex
+CORUM_2366,ITGAV-ITGB3-PPAP2b complex
+CORUM_2369,ITGAV-ITGB3-EGFR complex
+CORUM_2370,ITGA2b-ITGB3-CD9 complex
+CORUM_2373,ITGAV-ITGB3-SPP1 complex
+CORUM_2374,ITGAV-ITGB3-LAMA4 complex
+CORUM_2375,FN1-TGM2 complex
+CORUM_2376,ITGA2B-ITGB3-FN1-TGM2 complex
+CORUM_2377,ITGA2b-ITGB3-CD47-SRC complex
+CORUM_2378,ITGA2b-ITGB3-TLN1 complex
+CORUM_2379,ITGA2B-ITGB3-CIB1 complex
+CORUM_2381,ITGA2B-ITGB3 complex
+CORUM_2382,ITGA2B-ITGB3-F11R complex
+CORUM_2383,ITGA5-ITGB1-FN1-TGM2 complex
+CORUM_2390,CD98-LAT2-ITGB1 complex
+CORUM_2401,ITGA3-ITGB1-THBS1 complex
+CORUM_2417,ITGA4-ITGB1-EMILIN1 complex
+CORUM_2418,ITGA4-ITGB1 complex
+CORUM_2419,ITGA4-ITGB1-CD81 complex
+CORUM_2420,ITGA4-ITGB1-CD53 complex
+CORUM_2421,ITGA4-ITGB1-VCAM1 complex
+CORUM_2422,ITGA4-ITGB1-JAM2 complex
+CORUM_2423,ITGA4-ITGB1-CD47 complex
+CORUM_2424,ITGA4-ITGB1-CD63 complex
+CORUM_2426,ITGA4-ITGB1-THBS1 complex
+CORUM_2428,ITGA4-ITGB1-THBS2 complex
+CORUM_2442,ITGA9-ITGB1-VCAM1 complex
+CORUM_2453,Multiprotein complex (monoubiquitination)
+CORUM_2454,"CIN85-CBL-SH3GL2-EGFR complex, EGF stimulated"
+CORUM_2456,"MET-CIN85-SH3GL3-CBL complex, HGF stimulated"
+CORUM_2470,p130Cas-ER-alpha-cSrc-kinase- PI3-kinase p85-subunit complex
+CORUM_2471,SRC-PRKCD-CDCP1 complex
+CORUM_2476,CRKL-PDGFRA-CRK-RAPGEF1 complex
+CORUM_2480,"CIN85 complex (CIN85, CRK, BCAR1, CBL, PIK3R1, GRB2, SOS1)"
+CORUM_2486,GIPC1-LHCGR complex
+CORUM_2487,GIPC1-NTRK1-RGS19 complex
+CORUM_2510,ZAP70-CRKL-WIPF1-WAS complex
+CORUM_2511,CRKL-WIPF1-WAS complex
+CORUM_2528,ERBB2-MEMO-SHC complex
+CORUM_2529,"LAT-PLC-gamma-1-p85-GRB2-CBL-VAV-SLP-76 signaling complex, C305 activated"
+CORUM_2534,"Cbl-SLP-76-Grb2 complex, Fc receptor gamma-R1 stimulated"
+CORUM_2535,"SLP-76-Cbl-Grb2-Shc complex, Fc receptor gamma-R1 stimulated"
+CORUM_2536,PLC-gamma-2-SLP-76-Lyn-Grb2 complex
+CORUM_2537,"PKC-alpha-PLD1-PLC-gamma-2 signaling complex, lacritin stimulated"
+CORUM_2540,BCR-ABL (p210 fusion protein)-GRB2 complex
+CORUM_2541,HGF-Met complex
+CORUM_2542,EGFR-CBL-GRB2 complex
+CORUM_2551,"PDGFRA-PLC-gamma-1-PI3K-SHP-2 complex, PDGF stimulated"
+CORUM_2559,p56(LCK)-CAML complex
+CORUM_2563,FGFR2-c-Cbl-Lyn-Fyn complex
+CORUM_2564,"p21(ras)GAP-Fyn-Lyn-Yes complex, thrombin stimulated"
+CORUM_2565,"CD20-LCK-LYN-FYN-p75/80 complex, (Raji human B cell line)"
+CORUM_2572,RAB5-EEA1 complex
+CORUM_2573,Class C VPS/HOPS complex
+CORUM_2574,CD19-Vav-PI 3-kinase (p85 subunit) complex
+CORUM_2577,Sam68-p85 P13K-IRS-1-IR signaling complex
+CORUM_2581,RasGAP-AURKA/AURKB-survivin complex
+CORUM_2599,POLR2A-CCNT1-CDK9-NCL-LEM6-CPSF2 complex
+CORUM_2600,BRD4 complex
+CORUM_2601,P-TEFb-BRD4-TRAP220 complex
+CORUM_2602,P-TEFb-7SKRNA-HEXIM1 complex
+CORUM_2603,"Transcription elongation factor complex (SUPT5H, CDK9, CCNT1)"
+CORUM_2604,P-TEFb-SKP2 complex
+CORUM_2605,"Heterotrimeric complex (CCNT1, CDK9, GRN)"
+CORUM_2625,CDK8-MED6-PARP1 complex
+CORUM_2626,CCNC-CDK8-MED1-MED6-MED7 xcomplex
+CORUM_2635,BETA2-Cyclin D1 complex
+CORUM_2638,HES1 promoter corepressor complex
+CORUM_2639,HES1 promoter-Notch enhancer complex
+CORUM_2641,p300/CBP-PCAF-MyoD complex
+CORUM_2657,ESR1-CDK7-CCNH-MNAT1-MTA1-HDAC2 complex
+CORUM_2660,ERCC2/CAK complex
+CORUM_2670,Er-alpha-p53-hdm2 complex
+CORUM_2692,SMAD3-SMAD4-cJun-cFos complex
+CORUM_2693,NFAT-JUN-FOS DNA-protein complex
+CORUM_2694,ERG-JUN-FOS DNA-protein complex
+CORUM_2695,ETS2-FOS-JUN complex
+CORUM_2699,ER-alpha-GRIP1-c-Jun complex
+CORUM_2700,ER-alpha-c-Jun complex
+CORUM_2708,SMAD3-SMAD4-cJUN complex
+CORUM_2709,MMP-9-TIMP-1-LRP complex
+CORUM_2710,LRP-1-Alpha-2-M-annexin VI complex
+CORUM_2719,Casein kinase II-HMG1 complex
+CORUM_2720,Casein kinase II complex
+CORUM_2721,HCF-1 complex
+CORUM_2726,PXN-ITGB5-PTK2 complex
+CORUM_2727,SRC-3 complex
+CORUM_2736,TAJ-NgR1-LINGO-1 signaling complex
+CORUM_2770,ITGA6-ITGB4-CD9 complex
+CORUM_2791,MCM4-MCM6-MCM7 complex
+CORUM_2792,MCM2-MCM4-MCM6-MCM7 complex
+CORUM_2798,MMP-2-claudin-1 complex
+CORUM_2808,RAD9-RAD1-HUS1-APE1 complex
+CORUM_2811,BRCA1-cABL complex
+CORUM_2814,BRCA1-HDAC1-HDAC2 complex
+CORUM_2816,ITGAV-ITGB3 complex
+CORUM_2819,BRCA1-CtIP-CtBP complex
+CORUM_2826,ITGB3-ITGAV-VTN complex
+CORUM_2839,ATRX-DAXX complex
+CORUM_2842,DAXX-Axin-p53-HIPK2 complex
+CORUM_2843,ATRX-DAXX complex
+CORUM_2844,Axin-p53-HIPK2 complex
+CORUM_2846,ITGAV-ITGB3-THBS1 complex
+CORUM_2849,ITGAV-ITGB3-NOV complex
+CORUM_2850,ITGA5-ITGB1-FN-1-NOV complex
+CORUM_2851,ING2 complex
+CORUM_2863,Serine-palmitoyltransferase (SPT) complex
+CORUM_2872,ITGA2b-ITGB3-CD9-GP1b-CD47 complex
+CORUM_2873,P-TEFb-7SKRNA-HEXIM1 complex
+CORUM_2875,BRD4-P-TEFb complex
+CORUM_2877,BRD4-P-TEFb complex
+CORUM_2878,P-TEFb-7SKRNA-HEXIM1 complex
+CORUM_2879,CD20-LCK-FYN-p75/80 complex
+CORUM_2880,"SCF subcomplex (WEE1, SKP2, BTRC)"
+CORUM_2882,ITGA5-ITGB3-COL6A3 complex
+CORUM_2884,"Respiratory chain complex I (early intermediate NDUFAF1 assembly), mitochondrial"
+CORUM_2886,"Respiratory chain complex I (incomplete intermediate ND1, ND2, ND3, CIA30 assembly), mitochondrial"
+CORUM_2892,BCR-ABL (p185 fusion protein)-GRB2 complex
+CORUM_2893,BCR-ABL (p210 fusion protein)-GRB2-SOS1 complex
+CORUM_2895,SHC-GRB2 complex
+CORUM_2896,ITGA2b-ITGB3-CD47-FAK complex
+CORUM_2898,"Respiratory chain complex I (intermediate I/200kD and III/250kD), mitochondrial"
+CORUM_2901,"Respiratory chain complex I (intermediate IV/310kD), mitochondrial"
+CORUM_2903,"Respiratory chain complex I (intermediate V/380kD and VI/480kD), mitochondrial"
+CORUM_2904,"Respiratory chain complex I (intermediate VII/650kD), mitochondrial"
+CORUM_2905,"Respiratory chain complex I (holoenzyme), mitochondrial"
+CORUM_2906,"Respiratory chain complex I (intermediate II/230kD), mitochondrial"
+CORUM_2909,PLC-gamma-2-Syk-LAT-FcR-gamma complex
+CORUM_2910,PLC-gamma-2-Lyn-FcR-gamma complex
+CORUM_2914,Respiratory chain complex I (beta subunit) mitochondrial
+CORUM_2917,"Grb2-Sos complex, Fc receptor gamma-R1 stimulated"
+CORUM_2919,Respiratory chain complex I (gamma subunit) mitochondrial
+CORUM_2920,Respiratory chain complex I (lambda subunit) mitochondrial
+CORUM_2921,SHARP-CtBP complex
+CORUM_2922,"LAT-PLC-gamma-1-p85-GRB2-SOS signaling complex, C305 activated"
+CORUM_2923,SHARP-CtBP1-CtIP complex
+CORUM_2931,SHARP-CtBP1-CtIP-RBP-Jkappa corepressor complex
+CORUM_2936,"Ecsit complex (ECSIT, MT-CO2, GAPDH, TRAF6, NDUFAF1)"
+CORUM_2938,"Ecsit complex (ECSIT, NDUFS3, TOM20)"
+CORUM_2939,"Ecsit complex (ECSIT, MT-CO2, NDUFA1, MT-ND1, TRAF6, NDUFAF1)"
+CORUM_2942,"Ecsit complex (ECSIT, NDUFS3, NDUFAF1)"
+CORUM_2943,"Respiratory chain complex I (incomplete NDUFAF1 assembly), mitochondrial"
+CORUM_2944,Notch1-p56lck-PI3K complex
+CORUM_2948,"Respiratory chain complex I (incomplete intermediate), mitochondrial"
+CORUM_2955,"LCK-SLP76-PLC-gamma-1-LAT complex, pervanadate-activated"
+CORUM_2957,"LAT-GRB2 complex, Fyn-mLck(KA) or Syk kinase activated"
+CORUM_2960,"SLP-76-PLC-gamma-1-ITK complex, alpha-TCR stimulated"
+CORUM_2962,CRK-BCAR1-DOCK1 complex
+CORUM_2963,"ITK-SLP-76 complex, anti-TCR stimulated"
+CORUM_2968,Axin-SMAD3 complex
+CORUM_2969,"mTORC2 complex (mTOR/FRAP1, LST8, mAVO3/RICTOR)"
+CORUM_2970,"mTORC1 complex (mTOR/FRAP1, LST8, RAPTOR)"
+CORUM_2972,ITGA9-ITGB1-VEGFA complex
+CORUM_2985,mTOR-signaling complex
+CORUM_2990,"mTOR-signaling complex (FRAP1/mTOR, GBL, RAPTOR)"
+CORUM_2991,"mTOR-signaling complex (mTOR/FRAP1, RAPTOR)"
+CORUM_2998,Axin-PP2A A-PP2A C-GSK3-beta-beta-catenin complex
+CORUM_3004,APC-Axin-1-beta-catenin complex
+CORUM_3008,60S APC containing complex
+CORUM_3015,"p27-cyclinE-Cdk2 - Ubiquitin E3 ligase (SKP1A, SKP2, CUL1, CKS1B, RBX1) complex"
+CORUM_3025,TGF-beta receptor II-TGF-beta3 complex
+CORUM_3026,TGF-beta receptor II-TGF-beta1 complex
+CORUM_3027,TGF-beta receptor II-TGF-beta receptor I-TGF-beta1 complex
+CORUM_3028,TGF-beta receptor II-TGF-beta receptor I-TGF-beta3 complex
+CORUM_3032,"RNA-induced silencing complex, RISC"
+CORUM_3035,LAT2-ITGB1 complex
+CORUM_3040,Multisynthetase complex
+CORUM_3041,TGF-beta-receptor type II homodimer complex
+CORUM_3042,TGF-beta-receptor II-TGF-beta1 complex
+CORUM_3043,BMP2-BRIA complex
+CORUM_3044,SKI-NCOR1-SIN3A-HDAC1 complex
+CORUM_3045,hs4 enhancer complex (faster migrating complex)
+CORUM_3048,mSin3A complex
+CORUM_3053,mSin3A-HDAC1-HDAC2 complex
+CORUM_3054,MAD1-mSin3A-HDAC2 complex
+CORUM_3055,Nop56p-associated pre-rRNA complex
+CORUM_3058,ITGA11-ITGB1 complex
+CORUM_3059,ITGA11-ITGB1-COL1A1 complex
+CORUM_3060,"RNA polymerase II complex (RPB1, RAP74, CDK8, CYCC, SRB7, BAF190, BAF47), chromatin structure modifying"
+CORUM_3061,"RNA polymerase II complex (CBP, PCAF, RPB1, BAF47, CYCC, CDK8), chromatin structure modifying"
+CORUM_3062,"RNA polymerase II complex, incomplete (CBP, RPBI, PCAF, BAF47), chromatin structure modifying"
+CORUM_3064,"RNA polymerase II complex, chromatin structure modifying"
+CORUM_3065,"RNA polymerase II complex, chromatin structure modifying"
+CORUM_3066,"RNA polymerase II complex, chromatin structure modifying"
+CORUM_3067,"RNA polymerase II complex, incomplete (CDK8 complex), chromatin structure modifying"
+CORUM_3082,DGCR8 multiprotein complex
+CORUM_3084,CCND1-CDK4 complex
+CORUM_3085,CCND2-CDK4 complex
+CORUM_3086,CCND3-CDK4 complex
+CORUM_3087,CCND1-CDK6 complex
+CORUM_3088,CCND2-CDK6 complex
+CORUM_3089,CCND3-CDK6 complex
+CORUM_3096,ITGA6-ITGB4-SHC1-GRB2 complex
+CORUM_3103,ITGAV-ITGB3-SLC3A2 complex
+CORUM_3104,ITGB1-NRP1 complex
+CORUM_3110,ITGAV-P2RY2-GNA12 complex
+CORUM_3115,ITGA2B-ITGB3-ICAM4 complex
+CORUM_3117,ITGB5-ITGAV-VTN complex
+CORUM_3133,"Phosphatidylinositol 3-kinase (PIK3CA, PIK3R1)"
+CORUM_3135,TLE1 corepressor complex (MASH1 promoter-corepressor complex)
+CORUM_3137,MASH1 promoter-coactivator complex
+CORUM_3140,CRLR-RAMP2 complex
+CORUM_3141,CRLR-RAMP3 complex
+CORUM_3142,CAMK2-delta-MASH1 promoter-coactivator complex
+CORUM_3149,NK-3-Groucho-HIPK2-SIN3A-RbpA48-HDAC1 complex
+CORUM_3153,GNAQ-GEFT-RHOA complex
+CORUM_3155,"Bipartite complex (TFC4, CTNNB1)"
+CORUM_3156,CBF1-HDAC1-SMRT complex
+CORUM_3157,Prolactin (PRL) - PRL receptor (PRLR) complex
+CORUM_3161,PRL receptor (PRLR) dimer complex
+CORUM_3162,TF-FVIIa-FXa-TFPI complex
+CORUM_3166,AXIN-APC-betaCatenin-GSK3B complex
+CORUM_3167,NCOR-SIN3-HDAC-HESX1 complex
+CORUM_3168,DAXX-AXIN complex
+CORUM_3170,Daxx-Axin-p53 complex
+CORUM_3172,NUMB-TP53-MDM2 complex
+CORUM_3181,LMO4-CREB complex
+CORUM_3183,"PDGFRA-SHP-2 complex, PDGF stimulated"
+CORUM_3186,"GRB2-SHP-2 complex, PDGF stimulated"
+CORUM_3189,FHL2-CREB complex
+CORUM_3190,FHL3-CREB complex
+CORUM_3191,ACT-CREB complex
+CORUM_3207,LIN2-LIN7-SAP97-MINT1 complex
+CORUM_3208,LIN2-LIN7 complex
+CORUM_3229,"Heterodimer complex (CDK9, IL6ST)"
+CORUM_3263,HERP1/HEY2-NCOR-SIN3A complex
+CORUM_3269,RB1-HDAC1-BRG1 complex
+CORUM_3634,NR3C2-UBC9-SRC-1 complex
+CORUM_3678,"RIN1-STAM2-EGFR complex, EGF stimulated"
+CORUM_3710,CHL2-BMP2 complex
+CORUM_3711,CHL2-BMP2-TSG complex
+CORUM_3830,ADRB2 homodimer complex
+CORUM_3847,TCL1(trimer)-AKT1 complex
+CORUM_3853,Rb-HDAC1 complex
+CORUM_3961,SMAD3-cSKI-SIN3A-HDAC1 complex
+CORUM_3979,"mTORC2 complex (mTOR/FRAP1, LST8, mAVO3/RICTOR, SIN1)"
+CORUM_3980,mTOR-RAPTOR complex
+CORUM_3988,"ClpP complex, heptameric"
+CORUM_3992,ClpXP complex
+CORUM_4039,PAR4-BACE1 complex
+CORUM_4062,NRP1-VEGFR2-VEGF(165) complex
+CORUM_4095,Catulin (alpha) - catenin (beta) complex
+CORUM_4096,Catenin (alpha) - catenin (beta) complex
+CORUM_4158,HSP90-FKBP38-CAM-Ca(2+) complex
+CORUM_4216,GR-hnRNP U complex
+CORUM_4869,beta(1)-AR receptosome (ADRB1-SAP97-AKAP79-PRKAR2A)
+CORUM_5099,RB1(hypophosphorylated)-E2F4 complex
+CORUM_5100,CyclinD3-CDK4-CDK6 complex
+CORUM_5101,CyclinD3-CDK4-CDK6-p21 complex
+CORUM_5107,p34(SEI-1)-CDK4-CyclinD2 complex
+CORUM_5117,"pRb2/p130-multimolecular complex (DNMT1, E2F4, SuV39H1, HDAC1, RBL2)"
+CORUM_5118,"pRb2/p130-multimolecular complex (RB2, E2F4, HDAC1, SUV39H1, P300)"
+CORUM_5143,E2F1-Rb complex
+CORUM_5146,RB1-TFAP2A complex
+CORUM_5171,SH3KBP1-CBLB-EGFR complex
+CORUM_5177,"Polycystin-1 multiprotein complex (ACTN1, CDH1, SRC, JUP, VCL, CTNNB1, PXN, BCAR1, PKD1, PTK2, TLN1)"
+CORUM_5179,NCOA6-DNA-PK-Ku-PARP1 complex
+CORUM_5184,SWI/SNF chromatin-remodeling complex
+CORUM_5189,YWHAQ-CALM1-CABIN1 complex
+CORUM_5190,TIAM1-EFNB1-EPHA2 complex
+CORUM_5193,"TNF-alpha/NF-kappa B signaling complex (CHUK, KPNA3, NFKB2, NFKBIB, REL, IKBKG,  NFKB1, NFKBIE, RELB,  NFKBIA, RELA, TNIP2)"
+CORUM_5194,"TNF-alpha/NF-kappa B signaling complex (SEC16A, CHUK, IKBKB, NFKB2, REL, IKBKG, MAP3K14, RELA, FBXW7, USP2)"
+CORUM_5198,"CBP-RARA-RXRA-DNA complex, ligand stimulated"
+CORUM_5199,Kinase maturation complex 1
+CORUM_5211,RAF1-PPP2-PIN1 complex
+CORUM_5212,Kinase maturation complex 2
+CORUM_5217,Calreticulin oligomer complex
+CORUM_5222,p14-Mp1-MEK1 complex
+CORUM_5224,"Casein kinase II (beta-dimer, alpha, alpha')"
+CORUM_5225,"Casein kinase II (beta-dimer, alpha-dimer)"
+CORUM_5226,p14-Mp1-ERK2 complex
+CORUM_5230,CHUK-NFKB2-REL-IKBKG-SPAG9-NFKB1-NFKBIE-COPB2-TNIP1-NFKBIA-RELA-TNIP2 complex
+CORUM_5232,"TNF-alpha/Nf-kappa B signaling complex (RPL6, RPL30, RPS13, CHUK, DDX3X, NFKB2, NFKBIB, REL, IKBKG, NFKB1, MAP3K8, RELB, GLG1, NFKBIA, RELA, TNIP2,  GTF2I)"
+CORUM_5233,TNF-alpha/NF-kappa B signaling complex 5
+CORUM_5234,IKBKB-CDC37-KIAA1967-HSP90AB1-HSP90AA1 complex
+CORUM_5235,WRN-Ku70-Ku80-PARP1 complex
+CORUM_5243,XRCC1-LIG3-PNK-TDP1 complex
+CORUM_5253,MNK1-eIF4F complex
+CORUM_5260,TCF4-CTNNB1-SUMO1-EP300-HADAC6 complex
+CORUM_5261,TCF4-CTNNB1-EP300 complex
+CORUM_5262,TCF4-CTNNB1 complex
+CORUM_5264,TCF4-CTNNB1-CREBBP complex
+CORUM_5266,TNF-alpha/NF-kappa B signaling complex 6
+CORUM_5268,TNF-alpha/NF-kappa B signaling complex 7
+CORUM_5269,TNF-alpha/NF-kappa B signaling complex 8
+CORUM_5276,HIF1A-OS9-EGLN1 complex
+CORUM_5277,HIF1A-OS9-EGLN3 complex
+CORUM_5280,RAB9-TIP47-MPRI complex
+CORUM_5281,Cell-cell junction complex (CDH1-CTNNB1)
+CORUM_5282,CAS-SRC-FAK complex
+CORUM_5285,TNF-alpha/NF-kappa B signaling complex 9
+CORUM_5286,TNF-alpha/NF-kappa B signaling complex 10
+CORUM_5287,CDK4-CCND1 complex
+CORUM_5317,LATS1-HTRA2-BIRC4 complex
+CORUM_5331,YY1-MDM2-p53 complex
+CORUM_5342,ELMO1-DOCK1-RAC1 complex
+CORUM_5367,THRB-RXRB complex
+CORUM_5373,"Chromatin remodeling complex (TACC2, TACC3, PCAF)"
+CORUM_5385,GAIT complex
+CORUM_5386,MLL1-WDR5 complex
+CORUM_5388,SERPINA1-ELA2 complex
+CORUM_5389,SERPINA3-CTSG complex
+CORUM_5391,SERPINA1-CTSG complex
+CORUM_5401,PLEKHM2-KIF5B complex
+CORUM_5407,NGF-TrkA complex
+CORUM_5409,TIAM1-GRIN1 complex
+CORUM_5411,EDG1-HTR1D complex
+CORUM_5412,HTR1D  homodimer complex
+CORUM_5414,HTR1A-HTR1D complex
+CORUM_5415,HTR1B homodimer complex
+CORUM_5416,HTR1A-HTR1B complex
+CORUM_5417,HTR1D-HTR1B complex
+CORUM_5418,GABBR2-HTR1A complex
+CORUM_5419,HTR1A-GPR26 complex
+CORUM_5420,HTR1A-EDG3 complex
+CORUM_5421,HTR1A homodimer complex
+CORUM_5422,HTR1A-EDG1 complex
+CORUM_5423,HSP70-BAG5-PARK2 complex
+CORUM_5424,NGF-p75 complex
+CORUM_5426,ANCO1-HDAC3  complex
+CORUM_5442,EPOR receptor complex
+CORUM_5446,EPO-EPOR complex
+CORUM_5460,p50-p65 NF(kappa)B complex
+CORUM_5461,p50-p65 NF(kappa)B-SRC1 complex
+CORUM_5464,I(kappa)B(alpha)-NF(kappa)Bp50-NF(kappa)Bp65 complex
+CORUM_5492,IKBA-NF(kappa)Bp65-NF(kappa)Bp50 complex
+CORUM_5495,"TFIIH transcription factor complex (ERCC2, ERCC3, GTF2H1, CDK7, CCNH, GTF2H2)"
+CORUM_5526,CALM1-FKBP38-BCL2 complex
+CORUM_5531,Tumor necrosis factor receptor 1 signaling complex
+CORUM_5542,CCNB2-CDC2 complex
+CORUM_5543,CCNB1-CDC2 complex
+CORUM_5544,CDC2-PCNA-CCNB1-GADD45A complex
+CORUM_5545,CDC2-PCNA-CCNB1-GADD45B complex
+CORUM_5546,CDC2-PCNA-CCNB1-GADD45G complex
+CORUM_5548,IL-12 heterodimer complex
+CORUM_5549,IL-12 subunit p40 homodimer complex
+CORUM_5550,CDC2-CCNB1-CCNF complex
+CORUM_5551,CDC2-CCNB1-PTCH1 complex
+CORUM_5556,CDK2-CCNA2 complex
+CORUM_5557,CDC2-CCNA2 complex
+CORUM_5559,CDC2-CCNA2-CDK2 complex
+CORUM_5560,CDK2-CCNE1 complex
+CORUM_5564,LMO4-gp130 complex
+CORUM_5573,Stat1-alpha-dimer-CBP DNA-protein complex
+CORUM_5609,Emerin regulatory complex
+CORUM_5611,Emerin complex 24
+CORUM_5614,Emerin complex 32
+CORUM_5615,Emerin complex 52
+CORUM_5622,HSP90-CIP1-FKBPL complex
+CORUM_5641,PSD95-FYN-NR2A complex
+CORUM_5643,ESPL1-CDC2 complex
+CORUM_5646,FARP2-NRP1-PlexinA1 complex
+CORUM_5647,FARP2-NRP1-PlexinA2 complex
+CORUM_5648,FARP2-NRP1-PlexinA3 complex
+CORUM_5649,FARP2-NRP1-PlexinA4 complex
+CORUM_5656,CEBPE-E2F1-RB1 complex
+CORUM_5658,Nrp1-PlexinD1 complex
+CORUM_5663,TRIM27-RB1 complex
+CORUM_5689,SEMA6D-PlexinA1-NRP1 complex
+CORUM_5691,TALL1 homo-oligomer complex
+CORUM_5695,TIP5-DNMT-HDAC1 complex
+CORUM_5696,VEGFA(165)-KDR-NRP1 complex
+CORUM_5698,VEGFA(165)-VEGFR2-NRP1 complex
+CORUM_5701,NRP1-VEGF(165/121) complex
+CORUM_5709,ArgBP2a-CBL-PTK2B complex
+CORUM_5712,"FAK-beta5 integrin complex, VEGF induced"
+CORUM_5713,SH3P2/OSTF1-CBL-SRC complex
+CORUM_5714,eNOS-CAV1 complex
+CORUM_5716,"eNOS-HSP90 complex, VEGF induced"
+CORUM_5718,"eNOS-HSP90-AKT complex, VEGF induced"
+CORUM_5731,"NRP1-VEGFC complex, heparin dependent"
+CORUM_5734,"NRP1-VEGFD complex, heparin dependent"
+CORUM_5735,TGF-beta receptor-SMAD3 complex
+CORUM_5740,NRP2-VEGFR3 complex
+CORUM_5745,PlexinA1-NRP1 complex
+CORUM_5746,PlexinA1-NRP1-SEMA3A complex
+CORUM_5747,2AR-mGluR2 complex
+CORUM_5748,2AR-mGluR2 complex
+CORUM_5772,ZO1-(beta)cadherin-(VE)cadherin-VEGFR2 complex
+CORUM_5809,GABAA receptor 
+CORUM_5816,Apoptosome-procaspase 9 complex
+CORUM_5828,IKBKG-IKBKB  complex
+CORUM_5830,"DJ-1-SNCA complex, high molecular weight complex"
+CORUM_5837,PPD complex
+CORUM_5843,AIF-CYPA-DNA complex
+CORUM_5844,I-kappa-B kinase (IKK) complex
+CORUM_5849,HSP90-CDC37-LRRK2 complex
+CORUM_5862,CAV1-VDAC1-ESR1 complex
+CORUM_5870,FE65-TSHZ3-HDAC1 complex
+CORUM_5872,BRAF-MAP2K1-MAP2K2-YWHAE complex
+CORUM_5873,RAF1-MAP2K1-YWHAE complex
+CORUM_5876,PPP2R1A-PPP2R1B-PPP2CA-PPME1-EIF4A1 complex
+CORUM_5877,MAP2K1-BRAF-RAF1-YWHAE-KSR1 complex
+CORUM_5919,BRAF-RAF1-14-3-3 complex
+CORUM_5920,KSR1-RAF1-MEK complex
+CORUM_5921,KSR1-BRAF-MEK complex
+CORUM_5922,"RAF1-RAS complex, EGF induced"
+CORUM_5923,"RAF1-BRAF complex, RAS stimulated"
+CORUM_5924,"RAF1-CNK1 complex, RAS stimulated"
+CORUM_5925,"BRAF-CNK1 complex, not RAS stimulated"
+CORUM_5928,CNK1-SRC-RAF1 complex

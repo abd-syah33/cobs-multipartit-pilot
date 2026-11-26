@@ -73,7 +73,7 @@ r = relasi (obat-target, target-kanker), tiap relasi pakai modularitas bipartit 
 Greedy menaruh 8 kanker di satu komunitas (145 obat, 2.706 target). Composite memisahkan: 8 kanker di komunitas sendiri-sendiri, 3 (glioblastoma, hati, ovarium) masih satu komunitas.
 
 Catatan:
-- Shen modularity & Q Newman pakai null model yg tidak membedakan tipe simpul, jadi condong ke greedy. Q composite condong ke composite. Jangan ambil kesimpulan dari satu metrik saja.
+- Shen modularity & Q Newman pakai null model yg tidak membedakan tipe simpul, jadi condong ke greedy. Q composite condong ke composite.
 - Internal edge density greedy tinggi krn banyak komunitas kecil (38 komunitas ukuran <= 3, median 8; composite median 56).
 - Langkah overlap hampir tidak menambah apa2: cuma 1 simpul overlap di masing2 (CUDC-101 di COBS asli, kanker ovarium di composite). Ini masalah sendiri, belum dibahas di sini.
 - Hasil composite tergantung gamma. gamma = 1 di sini; gamma lebih kecil -> komunitas lebih besar & kanker menumpuk lagi, gamma lebih besar -> lebih terpisah tapi komunitas makin banyak/kecil. Belum ada aturan pemilihan gamma.

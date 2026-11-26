@@ -1,8 +1,11 @@
 # graf benchmark yg ground truth-nya diketahui
 #  - southern women (Davis 1941): bipartit perempuan x acara, 2 kelompok perempuan
 #  - tripartit sintetis: obat-target-kanker buatan, komunitas + overlap ditanam
-import random
+import os, glob, random
+import pandas as pd
 import networkx as nx
+
+DATA = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
 
 # kelompok klasik Davis (dipakai di banyak paper, mis. Freeman 2003)
 KEL1 = ["Evelyn Jefferson", "Laura Mandeville", "Theresa Anderson", "Brenda Rogers", "Charlotte McDowd",
@@ -54,7 +57,42 @@ def tripartit_sintetis(n=(300, 300, 30), K=6, mu=0.2, ov=0.1, seed=0):
     return G, truth, None
 
 
+# dataset real world dari siapkan_data.py. urutan = urutan tipe simpul (0, 1, 2)
+REAL = {
+    "corporate_leadership": ["orang", "perusahaan"],
+    "divorce": ["negara_bagian", "alasan"],
+    "crime": ["orang", "kasus"],
+    "protein_complex_drug": ["obat", "kompleks"],
+    "dblp": ["penulis", "paper", "konferensi"],
+    "imdb": ["sutradara", "film", "aktor"],
+}
+
+
+def baca_real(nama):
+    d = os.path.join(DATA, nama)
+    G = nx.Graph()
+    label = {}
+    for t, tipe in enumerate(REAL[nama]):
+        df = pd.read_csv(f"{d}/node_{tipe}.csv")
+        for i in df.id:
+            G.add_node(i, tipe=t)
+        if "label" in df:
+            label.update(zip(df.id, df.label))
+    for f in glob.glob(f"{d}/edge_*.csv"):
+        df = pd.read_csv(f)
+        G.add_edges_from(zip(df.iloc[:, 0], df.iloc[:, 1]))
+    G = G.subgraph(max(nx.connected_components(G), key=len)).copy()
+    if not label:
+        return G, None, None       # tanpa ground truth
+    pada = {u for u in label if u in G}
+    truth = [set(u for u in pada if label[u] == k) for k in sorted(set(label.values()))]
+    return G, truth, pada
+
+
 if __name__ == "__main__":
+    for nama in REAL:
+        G, T, pada = baca_real(nama)
+        print(nama, G.number_of_nodes(), "simpul", G.number_of_edges(), "edge", "" if T is None else f"label di {len(pada)} simpul, {len(T)} kelas")
     G, T, _ = southern_women()
     print("southern women", G.number_of_nodes(), "simpul", G.number_of_edges(), "edge")
     G, T, _ = tripartit_sintetis()

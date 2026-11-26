@@ -1,13 +1,25 @@
-graf,seed,metode,K_awal,onmi_awal,K_akhir,onmi_akhir,omega_akhir,overlap_det,overlap_gt,f1_overlap,detik
-southern women,0,cobs_asli,3,0.666,3,0.666,0.814,0,0,,0.0
-southern women,0,cobs_composite,4,0.267,3,0.366,0.509,1,0,0.0,0.0
-tripartit sintetis,0,cobs_asli,6,0.647,6,0.647,0.727,0,63,0.0,0.4
-tripartit sintetis,0,cobs_composite,6,0.636,6,0.636,0.722,0,63,0.0,1.5
-tripartit sintetis,1,cobs_asli,6,0.623,6,0.623,0.706,0,60,0.0,0.4
-tripartit sintetis,1,cobs_composite,6,0.625,6,0.625,0.71,0,60,0.0,1.8
-tripartit sintetis,2,cobs_asli,5,0.484,5,0.484,0.6,0,68,0.0,0.4
-tripartit sintetis,2,cobs_composite,6,0.645,6,0.645,0.728,0,68,0.0,1.7
-tripartit sintetis,3,cobs_asli,6,0.581,6,0.581,0.664,0,66,0.0,0.4
-tripartit sintetis,3,cobs_composite,6,0.719,6,0.719,0.794,0,66,0.0,2.0
-tripartit sintetis,4,cobs_asli,5,0.484,5,0.484,0.601,0,69,0.0,0.4
-tripartit sintetis,4,cobs_composite,6,0.545,6,0.545,0.628,0,69,0.0,1.7
+graf,seed,metode,n,m,K_awal,onmi_awal,nmi_awal,purity_awal,kom_tipe_kecil_awal,maks_tipe_kecil_awal,q_newman_awal,q_composite_awal,K_akhir,onmi_akhir,omega_akhir,shen_akhir,overlap_det,overlap_gt,f1_overlap,detik
+southern women,0,cobs_asli,32,89,3,0.666,0.84,1.0,3,7,0.3147,0.3183,3,0.666,0.814,0.2692,4,0.0,,0.0
+southern women,0,cobs_composite,32,89,4,0.267,0.451,0.889,4,6,0.333,0.3455,3,0.366,0.509,0.2483,5,0.0,0.0,0.0
+tripartit sintetis,0,cobs_asli,630,3145,6,0.647,0.695,0.875,6,7,0.504,0.494,6,0.647,0.727,0.504,0,63.0,0.0,0.4
+tripartit sintetis,0,cobs_composite,630,3145,6,0.636,0.712,0.876,6,5,0.5052,0.5215,6,0.636,0.722,0.5052,0,63.0,0.0,1.5
+tripartit sintetis,1,cobs_asli,630,3287,6,0.623,0.714,0.873,6,6,0.4911,0.4854,6,0.623,0.706,0.4911,0,60.0,0.0,0.4
+tripartit sintetis,1,cobs_composite,630,3287,6,0.625,0.693,0.871,6,5,0.4989,0.5309,6,0.625,0.71,0.4989,0,60.0,0.0,1.8
+tripartit sintetis,2,cobs_asli,630,3341,5,0.484,0.609,0.722,5,10,0.4699,0.4678,5,0.484,0.6,0.4699,0,68.0,0.0,0.4
+tripartit sintetis,2,cobs_composite,630,3341,6,0.645,0.697,0.868,6,5,0.4935,0.5286,6,0.645,0.728,0.4935,0,68.0,0.0,1.7
+tripartit sintetis,3,cobs_asli,630,3256,6,0.581,0.679,0.86,6,6,0.4838,0.5026,6,0.581,0.664,0.4838,0,66.0,0.0,0.4
+tripartit sintetis,3,cobs_composite,630,3256,6,0.719,0.747,0.892,6,5,0.5359,0.5659,6,0.719,0.794,0.5359,0,66.0,0.0,1.7
+tripartit sintetis,4,cobs_asli,630,3218,5,0.484,0.627,0.735,5,10,0.4545,0.4428,5,0.484,0.601,0.4545,0,69.0,0.0,0.4
+tripartit sintetis,4,cobs_composite,630,3218,6,0.545,0.641,0.838,6,7,0.4663,0.488,6,0.545,0.628,0.4663,0,69.0,0.0,1.7
+corporate_leadership,0,cobs_asli,44,99,6,,,,6,6,0.3883,0.399,6,,,0.3235,8,,,0.0
+corporate_leadership,0,cobs_composite,44,99,5,,,,5,6,0.4236,0.4251,4,,,0.3444,3,,,0.0
+divorce,0,cobs_asli,59,225,4,,,,4,4,0.1701,0.1766,4,,,0.0133,10,,,0.0
+divorce,0,cobs_composite,59,225,3,,,,3,4,0.1776,0.1851,3,,,0.0298,8,,,0.1
+crime,0,cobs_asli,1263,1377,35,,,,35,40,0.9238,0.9238,35,,,0.9238,0,,,0.1
+crime,0,cobs_composite,1263,1377,34,,,,34,34,0.9237,0.9237,34,,,0.9237,0,,,1.2
+protein_complex_drug,0,cobs_asli,1302,3576,25,,,,25,111,0.813,0.8132,25,,,0.8079,2,,,0.4
+protein_complex_drug,0,cobs_composite,1302,3576,22,,,,22,59,0.8458,0.8459,22,,,0.8458,0,,,1.5
+dblp,0,cobs_asli,18405,33973,23,0.348,0.568,0.895,12,4,0.6915,0.6801,23,0.348,,0.6915,0,0.0,,77.7
+dblp,0,cobs_composite,18405,33973,14,0.288,0.562,0.911,14,3,0.6828,0.7055,14,0.288,,0.6828,0,0.0,,16.9
+imdb,0,cobs_asli,10384,16097,71,0.0,0.027,0.469,71,124,0.7036,0.7309,71,0.0,,0.7036,0,0.0,,4.2
+imdb,0,cobs_composite,10384,16097,85,0.0,0.042,0.519,85,43,0.7054,0.7987,85,0.0,,0.7054,0,0.0,,20.2

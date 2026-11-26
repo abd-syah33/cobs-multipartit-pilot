@@ -19,9 +19,11 @@ bandingkan.py       tabel perbandingan
 cek_overlap.py      cek similarity di langkah 4 (kenapa overlap hampir tidak ada)
 hasil/
 benchmark/
-  data_benchmark.py       southern women + tripartit sintetis (ground truth diketahui)
-  jalankan_benchmark.py   COBS lengkap asli vs composite, ONMI & F1 overlap
-  hasil_benchmark.csv
+  siapkan_data.py         unduh dataset real world -> data/<nama>/ (csv node/edge)
+  data/                   corporate_leadership, divorce, crime, protein_complex_drug, dblp, imdb
+  data_benchmark.py       southern women, tripartit sintetis, baca dataset real world
+  jalankan_benchmark.py   COBS lengkap asli vs composite di semua graf benchmark
+  hasil_benchmark.csv, hasil_benchmark_ringkas.csv
 ```
 
 ## Data
@@ -47,7 +49,9 @@ python cobs_composite.py   # +- 10 detik
 python bandingkan.py
 python cek_overlap.py
 
-cd benchmark && python jalankan_benchmark.py   # +- 15 detik
+cd benchmark
+python siapkan_data.py        # sekali saja, csv sudah ada di repo. DBLP mentah 258 MB
+python jalankan_benchmark.py  # +- 3 menit (DBLP paling lama)
 ```
 
 Parameter COBS sama utk keduanya: Adamic-Adar, theta_sim 0,30, theta_overlap 0,10. Yg beda cuma langkah 1. Langkah 2-5 kode resmi, tidak diubah; langkah 1 diganti dg menimpa sementara `greedy_modularity_communities` waktu COBS dipanggil (lihat `jalankan_cobs` di cobs_asli.py).
@@ -101,24 +105,59 @@ Langkah 2-5 jalan semua, tapi hampir tidak ada yg lolos ambang:
 
 Simpul batas derajatnya kecil (median 4-8) sedangkan profil komunitas N(C) bisa ratusan-ribuan simpul, jadi similarity jenis cosine kira2 paling tinggi sqrt(|N(u)|/|N(C)|). Di graf tripartit juga tidak ada segitiga, irisan N(u) dan N(C) kecil. Yg lolos justru simpul derajat besar (kanker ovarium, derajat 877).
 
-## Benchmark (benchmark/hasil_benchmark.csv)
+## Benchmark (benchmark/hasil_benchmark_ringkas.csv)
 
-COBS lengkap, parameter sama (AA, 0,30, 0,10), gamma = 1.
+COBS lengkap (langkah 1-5), parameter sama (AA, 0,30, 0,10), gamma = 1. Semua graf diambil komponen terbesarnya.
 
-- Southern women: 18 perempuan x 14 acara, ground truth 2 kelompok klasik Davis, ONMI dihitung di perempuan saja.
-- Tripartit sintetis: 300 obat, 300 target, 30 kanker, 6 komunitas (tiap komunitas punya 3 tipe), 10% simpul tiap tipe ikut 2 komunitas, mu = 0,2 (peluang edge keluar komunitas). 5 seed, dirata2.
+Graf:
 
-| | COBS asli | COBS + composite |
-|---|---|---|
-| SW: komunitas akhir | 3 | 3 |
-| SW: ONMI sesudah langkah 1 | 0,666 | 0,267 |
-| SW: ONMI akhir | 0,666 | 0,366 |
-| Sintetis: komunitas akhir | 5,6 | 6,0 |
-| Sintetis: ONMI akhir | 0,564 | 0,634 |
-| Sintetis: omega akhir | 0,660 | 0,716 |
-| Sintetis: simpul overlap terdeteksi / tertanam | 0 / 65 | 0 / 65 |
-| Sintetis: F1 simpul overlap | 0 | 0 |
+| graf | tipe simpul | simpul | edge | ground truth | sumber |
+|---|---|---|---|---|---|
+| southern women | perempuan, acara | 32 | 89 | 2 kelompok perempuan (Davis) | networkx |
+| tripartit sintetis | obat, target, kanker | 630 | 3.145-3.341 | 6 komunitas tertanam, 10% overlap, mu 0,2, 5 seed | data_benchmark.py |
+| corporate leadership | orang, perusahaan | 44 | 99 | - | KONECT |
+| divorce | negara bagian, alasan cerai | 59 | 225 | - | UCI netdata |
+| crime | orang, kasus | 1.263 | 1.377 | - | KONECT |
+| protein complex-drug | obat (DrugBank), kompleks (CORUM) | 1.302 | 3.576 | - | Nacher & Schwartz 2012, PLoS One |
+| DBLP | penulis, paper, konferensi | 18.405 | 33.973 | 4 bidang riset penulis | MAGNN (Fu dkk. 2020), term dibuang |
+| IMDB | sutradara, film, aktor | 10.384 | 16.097 | 3 genre film | MAGNN (Fu dkk. 2020) |
 
-- Di SW composite kalah: partisinya memecah jadi 4 (gamma = 1 terlalu halus utk graf sekecil ini), langkah merge COBS menggabungkan jadi 3 tapi tetap di bawah greedy.
-- Di sintetis composite lebih baik di 4 dari 5 seed (seed 0 greedy sedikit lebih baik), di 2 seed greedy menggabungkan 2 komunitas (K = 5).
-- Langkah overlap tidak menemukan satu pun dari 65 simpul overlap tertanam di kedua versi. Jadi masalah overlap bukan cuma di draf dataset.
+Lisensi data ikut sumber masing2 (KONECT CC BY-SA, divorce CC BY-NC-ND, PLoS One CC BY, MAGNN tanpa keterangan), repo ini private.
+
+Malaria gene-substring tidak bisa diambil: situs aslinya sudah mati dan repo data penulisnya cuma berisi jaringan gen-gen, bukan bipartit gen-substring.
+
+Dengan ground truth (ONMI di simpul berlabel; NMI & purity dari partisi awal):
+
+| graf | | COBS asli | COBS + composite |
+|---|---|---|---|
+| southern women | komunitas | 3 | 3 |
+| | ONMI | **0,666** | 0,366 |
+| | NMI / purity | **0,840 / 1,000** | 0,451 / 0,889 |
+| tripartit sintetis (rata2 5 seed) | komunitas | 5,6 | 6,0 |
+| | ONMI | 0,564 | **0,634** |
+| | NMI / purity | 0,665 / 0,813 | **0,698 / 0,869** |
+| DBLP | komunitas | 23 | 14 |
+| | ONMI | **0,348** | 0,288 |
+| | NMI / purity | 0,568 / 0,895 | 0,562 / 0,911 |
+| | komunitas berisi konferensi / maks konferensi per komunitas | 12 / 4 | 14 / 3 |
+| IMDB | komunitas | 71 | 85 |
+| | ONMI | 0,000 | 0,000 |
+| | NMI / purity | 0,027 / 0,469 | 0,042 / 0,519 |
+
+Tanpa ground truth (cuma modularitas; Q composite = Barber utk graf bipartit):
+
+| graf | komunitas (asli / composite) | Q Newman | Q composite | simpul overlap |
+|---|---|---|---|---|
+| corporate leadership | 6 / 4 | 0,388 / 0,424 | 0,399 / 0,425 | 8 / 3 |
+| divorce | 4 / 3 | 0,170 / 0,178 | 0,177 / 0,185 | 10 / 8 |
+| crime | 35 / 34 | 0,924 / 0,924 | 0,924 / 0,924 | 0 / 0 |
+| protein complex-drug | 25 / 22 | 0,813 / 0,846 | 0,813 / 0,846 | 2 / 0 |
+
+Catatan:
+- Southern women: composite kalah, gamma = 1 memecah jadi 4, merge COBS menggabung jadi 3 tapi tetap di bawah greedy.
+- Tripartit sintetis: composite lebih baik di 4 dari 5 seed.
+- DBLP: hampir setara. NMI sama, ONMI greedy lebih tinggi, purity composite sedikit lebih tinggi. Mirip draf dataset: composite menyebar simpul tipe kecil (konferensi) ke lebih banyak komunitas (maks 3 vs 4 per komunitas).
+- IMDB: dua2nya hampir tidak cocok dg genre (purity 0,47-0,52, padahal tebak genre terbanyak saja sudah 0,37). Genre bukan komunitas yg terbentuk dari sutradara/aktor, jadi IMDB kurang cocok jadi ground truth. ONMI 0 krn komunitasnya banyak (71-85) dan kecil.
+- Tanpa ground truth: Q composite sama atau sedikit lebih tinggi (termasuk Q Newman), tapi ini cuma kualitas struktur, bukan benar/salah.
+- Overlap: di semua graf langkah overlap hampir tidak menambah apa2 (0-10 simpul), di sintetis 0 dari 65 simpul overlap tertanam. Jadi masalah overlap bukan cuma di draf dataset.
+- Omega tidak dihitung di DBLP & IMDB, fungsi cdlib-nya kehabisan RAM (2 GB).

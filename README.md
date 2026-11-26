@@ -16,7 +16,12 @@ graf.py             baca csv -> graf
 cobs_asli.py        COBS resmi (greedy modularity -> overlap)
 cobs_composite.py   COBS dg langkah 1 composite modularity
 bandingkan.py       tabel perbandingan
+cek_overlap.py      cek similarity di langkah 4 (kenapa overlap hampir tidak ada)
 hasil/
+benchmark/
+  data_benchmark.py       southern women + tripartit sintetis (ground truth diketahui)
+  jalankan_benchmark.py   COBS lengkap asli vs composite, ONMI & F1 overlap
+  hasil_benchmark.csv
 ```
 
 ## Data
@@ -40,6 +45,9 @@ python graf.py
 python cobs_asli.py        # +- 1 menit (greedy CNM)
 python cobs_composite.py   # +- 10 detik
 python bandingkan.py
+python cek_overlap.py
+
+cd benchmark && python jalankan_benchmark.py   # +- 15 detik
 ```
 
 Parameter COBS sama utk keduanya: Adamic-Adar, theta_sim 0,30, theta_overlap 0,10. Yg beda cuma langkah 1. Langkah 2-5 kode resmi, tidak diubah; langkah 1 diganti dg menimpa sementara `greedy_modularity_communities` waktu COBS dipanggil (lihat `jalankan_cobs` di cobs_asli.py).
@@ -77,3 +85,40 @@ Catatan:
 - Internal edge density greedy tinggi krn banyak komunitas kecil (38 komunitas ukuran <= 3, median 8; composite median 56).
 - Langkah overlap hampir tidak menambah apa2: cuma 1 simpul overlap di masing2 (CUDC-101 di COBS asli, kanker ovarium di composite). Ini masalah sendiri, belum dibahas di sini.
 - Hasil composite tergantung gamma. gamma = 1 di sini; gamma lebih kecil -> komunitas lebih besar & kanker menumpuk lagi, gamma lebih besar -> lebih terpisah tapi komunitas makin banyak/kecil. Belum ada aturan pemilihan gamma.
+
+## Kenapa overlap hampir tidak ada (cek_overlap.py)
+
+Langkah 2-5 jalan semua, tapi hampir tidak ada yg lolos ambang:
+
+| | COBS asli | COBS + composite |
+|---|---|---|
+| simpul batas | 1.770 | 2.066 |
+| pasangan (simpul, komunitas kandidat) | 3.834 | 8.078 |
+| median similarity | 0,008 | 0,009 |
+| persentil 99 | 0,055 | 0,091 |
+| lolos >= 0,30 | 1 | 2 |
+| merge | 0 | 0 |
+
+Simpul batas derajatnya kecil (median 4-8) sedangkan profil komunitas N(C) bisa ratusan-ribuan simpul, jadi similarity jenis cosine kira2 paling tinggi sqrt(|N(u)|/|N(C)|). Di graf tripartit juga tidak ada segitiga, irisan N(u) dan N(C) kecil. Yg lolos justru simpul derajat besar (kanker ovarium, derajat 877).
+
+## Benchmark (benchmark/hasil_benchmark.csv)
+
+COBS lengkap, parameter sama (AA, 0,30, 0,10), gamma = 1.
+
+- Southern women: 18 perempuan x 14 acara, ground truth 2 kelompok klasik Davis, ONMI dihitung di perempuan saja.
+- Tripartit sintetis: 300 obat, 300 target, 30 kanker, 6 komunitas (tiap komunitas punya 3 tipe), 10% simpul tiap tipe ikut 2 komunitas, mu = 0,2 (peluang edge keluar komunitas). 5 seed, dirata2.
+
+| | COBS asli | COBS + composite |
+|---|---|---|
+| SW: komunitas akhir | 3 | 3 |
+| SW: ONMI sesudah langkah 1 | 0,666 | 0,267 |
+| SW: ONMI akhir | 0,666 | 0,366 |
+| Sintetis: komunitas akhir | 5,6 | 6,0 |
+| Sintetis: ONMI akhir | 0,564 | 0,634 |
+| Sintetis: omega akhir | 0,660 | 0,716 |
+| Sintetis: simpul overlap terdeteksi / tertanam | 0 / 65 | 0 / 65 |
+| Sintetis: F1 simpul overlap | 0 | 0 |
+
+- Di SW composite kalah: partisinya memecah jadi 4 (gamma = 1 terlalu halus utk graf sekecil ini), langkah merge COBS menggabungkan jadi 3 tapi tetap di bawah greedy.
+- Di sintetis composite lebih baik di 4 dari 5 seed (seed 0 greedy sedikit lebih baik), di 2 seed greedy menggabungkan 2 komunitas (K = 5).
+- Langkah overlap tidak menemukan satu pun dari 65 simpul overlap tertanam di kedua versi. Jadi masalah overlap bukan cuma di draf dataset.

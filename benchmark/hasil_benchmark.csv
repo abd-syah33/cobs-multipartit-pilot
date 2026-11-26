@@ -1,0 +1,13 @@
+graf,seed,metode,K_awal,onmi_awal,K_akhir,onmi_akhir,omega_akhir,overlap_det,overlap_gt,f1_overlap,detik
+southern women,0,cobs_asli,3,0.666,3,0.666,0.814,0,0,,0.0
+southern women,0,cobs_composite,4,0.267,3,0.366,0.509,1,0,0.0,0.0
+tripartit sintetis,0,cobs_asli,6,0.647,6,0.647,0.727,0,63,0.0,0.4
+tripartit sintetis,0,cobs_composite,6,0.636,6,0.636,0.722,0,63,0.0,1.5
+tripartit sintetis,1,cobs_asli,6,0.623,6,0.623,0.706,0,60,0.0,0.4
+tripartit sintetis,1,cobs_composite,6,0.625,6,0.625,0.71,0,60,0.0,1.8
+tripartit sintetis,2,cobs_asli,5,0.484,5,0.484,0.6,0,68,0.0,0.4
+tripartit sintetis,2,cobs_composite,6,0.645,6,0.645,0.728,0,68,0.0,1.7
+tripartit sintetis,3,cobs_asli,6,0.581,6,0.581,0.664,0,66,0.0,0.4
+tripartit sintetis,3,cobs_composite,6,0.719,6,0.719,0.794,0,66,0.0,2.0
+tripartit sintetis,4,cobs_asli,5,0.484,5,0.484,0.601,0,69,0.0,0.4
+tripartit sintetis,4,cobs_composite,6,0.545,6,0.545,0.628,0,69,0.0,1.7
